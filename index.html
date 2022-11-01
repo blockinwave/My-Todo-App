@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Todo App</title>
+
+    <link rel = "stylesheet" href = "styles/general.css">
+    <link rel = "stylesheet" href = "styles/main.css">
+    <link rel = "stylesheet" href = "styles/todoList.css">
+    <link rel = "stylesheet" href = "styles/todoListUpdate.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+
+   <div class="header">
+      <div class="main-actions">
+
+        <div class="main-input">
+          <input id="todoTitle" class="master-text" type="text" placeholder="New Todo">
+          <input id="todoDate" class="master-date" type="date">
+        </div>
+
+        <button id="addTodo" class="add-button" onclick="onAdd()">Add Todo</button>
+
+      </div>
+
+    </div>
+
+    <div id="todoList" class="todoList"></div>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+
+  </body>
+</html>

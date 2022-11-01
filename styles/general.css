@@ -1,0 +1,19 @@
+@media (max-width: 425px) {
+  body {
+    font-family: Roboto, Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+  }
+}
+
+@media (min-width: 425.5px) {
+  body {
+    font-family: Roboto, Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+  }
+}
